@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  background-color: burlywood;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+
+ul {
+  list-style-type: none;
+  margin-top: 20px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 25px;
+}
+
+/* Heading styles */
+h3 {
+  font-family: serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Container styles */
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Box styles */
+.box {
+  background-color: bisque;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar styles */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  height: 60px;
+  left: 0;
+}
+
+.nav-buttons {
+  list-style: none;
+  display: flex;
+  align-items: normal;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-buttons li {
+  padding: 0 30px;
+}
+
+.nav-buttons li a {
+  text-decoration: none;
+  color: #bebdbd;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.nav-buttons li a:hover {
+  color: #6e7c83;
+}
+
+.login-button {
+  padding: 5px 15px;
+  background-color: #242425;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer styles */
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content p {
+  font-size: 16px;
+  color: #a8d0e6;
+}
+
+.social-media {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.social-media a {
+  margin: 0 15px;
+}
+
+.social-media img {
+  height: 25px;
+  transition: transform 0.2s ease;
+}
+
+.social-media img:hover {
+  transform: scale(1.1);
+}
